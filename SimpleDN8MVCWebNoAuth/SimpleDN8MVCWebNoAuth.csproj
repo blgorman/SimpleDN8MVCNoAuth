@@ -6,4 +6,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\.well-known\acme-challenge\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\.well-known\acme-challenge\c-wCgitQwYK6JaykihkTK9wYfjxFR_ZcH1zLGUu2eUc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
